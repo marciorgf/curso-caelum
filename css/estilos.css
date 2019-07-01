@@ -1,6 +1,9 @@
 body {
     color: #333333;
     font-family: 'Lucida Sans unicode', 'Lucida Grande', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
 }
 
 .container{
@@ -44,4 +47,58 @@ header{
     position: absolute;
     top: 0;
     right: 0;
+}
+
+/* O sobre começa aqui */
+
+h1 {
+    padding: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #333333;
+    margin-top: 30px;
+}
+
+/* imagens do site */
+figure {
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+#cd {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#foto-familia {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+#rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+/* fim das imagens */
+
+p {
+    padding: 10px;
+    text-indent: 15px;
 }
